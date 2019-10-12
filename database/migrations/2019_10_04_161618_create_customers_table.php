@@ -24,8 +24,8 @@ class CreateCustomersTable extends Migration
             $table->tinyInteger('mobile_verify');
             $table->tinyInteger('email_verify');
             $table->tinyInteger('online_status');
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
+            $table->timestamps();
+
         });
     }
 

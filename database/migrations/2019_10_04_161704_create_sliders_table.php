@@ -18,8 +18,8 @@ class CreateSlidersTable extends Migration
             $table->text('title');
             $table->text('comment')->nullable();
             $table->text('slider_path');
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
+            $table->timestamps();
+
         });
     }
 

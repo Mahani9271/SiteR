@@ -23,8 +23,8 @@ class CreateAdminUsersTable extends Migration
             $table->text('email');
             $table->integer('admin_level');
             $table->integer('online_status');
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
+            $table->timestamps();
+
         });
     }
 

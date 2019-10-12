@@ -18,8 +18,8 @@ class CreateOptionsTable extends Migration
             $table->text('option_name')->nullable();
             $table->text('option_content')->nullable();
             $table->text('option_priority')->nullable();
-            $table->timestamps('created_at')->nullable();
-            $table->timestamps('Updated_at')->nullable();
+            $table->timestamps();
+            //$table->timestamps('updated_at');
         });
     }
 

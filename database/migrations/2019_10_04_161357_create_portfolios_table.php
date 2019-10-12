@@ -23,8 +23,8 @@ class CreatePortfoliosTable extends Migration
             $table->text('tumbpic_path');
             $table->integer('gallery_id');
             $table->text('simple_path');
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
+            $table->timestamps();
+
         });
     }
 
